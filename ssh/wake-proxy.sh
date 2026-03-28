@@ -1,7 +1,7 @@
 #!/bin/bash
 HOST="$1"
 PORT="$2"
-MAC="a8:a1:59:4b:f2:23"  # Replace with your server's MAC
+MAC="xx:xx:xx:xx:xx:xx"  # Replace with your server's MAC
 # Try immediate connection first
 if nc -z "$HOST" "$PORT" 2>/dev/null; then
     exec nc "$HOST" "$PORT"
