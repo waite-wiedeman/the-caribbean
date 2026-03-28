@@ -1,0 +1,7 @@
+# ---- Naval Fort ----
+Host < host name >
+    HostName XXX.XXX.XXX.XXX
+    User root
+    ProxyCommand /home/ < user > /.ssh/wake-proxy.sh %h %p
+    IdentityFile ~/.ssh/id_ed25519
+    IdentitiesOnly yes
