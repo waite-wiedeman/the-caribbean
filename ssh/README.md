@@ -138,7 +138,7 @@ nano ~/.ssh/wake-proxy.sh
 
 The relevant line:
 ```bash
-MAC="a8:a1:59:4b:f2:23"  # Your server's MAC address
+MAC="XX:XX:XX:XX:XX:XX"  # Your server's MAC address
 ```
 
 ### What the script does
